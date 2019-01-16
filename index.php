@@ -35,7 +35,8 @@
     <div class="container">
         <div class="row">
             <form method="get" action="create.php">
-                
+                <input type="number" name="InputNumber"><br>
+                <button class="btn btn-primary" type="submit">Submit</button>
             </form>
         </div>
     </div>
