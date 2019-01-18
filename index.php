@@ -34,8 +34,9 @@
     <br>
     <div class="container">
         <div class="row">
-            <form method="get" action="create.php">
-                <input type="number" name="InputNumber"><br>
+            <form method="post" action="create.php">
+                <input type="text" name="Login"><br>
+                <input type="password" name="Password"><br>
                 <button class="btn btn-primary" type="submit">Submit</button>
             </form>
         </div>
