@@ -1,12 +1,7 @@
 <?php
-
-    
-    $Login = $_POST['Login'];
-    $Password = $_POST['Password'];
-    if ($Login == "Aleksey" && $Password == "F75"){
-        echo "Wellcome $Login";
+    var_dump($_FILES);
+    if($_FILES['file']['size'] == 6459756){
+        echo "File size is 6459756!";
     }
-    else {
-        echo "Wrong Login or Password, please try again.";
-    }
+    move_uploaded_file($_FILES['file']['tmp_name'], '1.jpg');
 ?>
