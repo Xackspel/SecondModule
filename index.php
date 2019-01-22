@@ -35,7 +35,7 @@
     <div class="container">
         <div class="row">
             <form method="post" action="create.php" enctype="multipart/form-data">
-                <input type="file" name="file"><br>
+                <input type="file" name="file"><br><br>
                 <button class="btn btn-primary" type="submit">Submit</button>
             </form>
         </div>
